@@ -5,7 +5,7 @@ A Windows Service developed in C# (.NET) to automate SQL Server database backups
 ## 📋 Key Features
 
 - 🔄 **Automated Backup** for SQL Server databases
-- ⏰ **Flexible Scheduling** for backups (daily, weekly, monthly)
+- ⏰ **Flexible Scheduling** for backups in minutes
 - 📁 **Backup File Management** with compression and storage options
 - 📝 **Detailed Logging** for all operations and errors
 - ⚙️ **Customizable Settings** via configuration files
@@ -29,8 +29,15 @@ git clone https://github.com/AbdallahBadawi/Database-Backup-Service.git
 # Navigate to project directory
 cd Database-Backup-Service
 ```
-
-### 2. Build Project
+### 2. Restore the Database
+1. Open SQL Server Management Studio
+2. Write this command:
+```bash
+RESTORE DATABASE StudentsDB
+--OR: Write where the backup copy is located in your computer
+FROM DISK = 'C:\DatabaseBackupService\Database\StudentsDB.bak' 
+```
+### 3. Build Project
 
 #### Using Visual Studio
 1. Open the `.sln` file in Visual Studio
