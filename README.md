@@ -33,7 +33,7 @@ cd Database-Backup-Service
 1. Open SQL Server Management Studio
 2. Write this command:
 ```bash
-RESTORE DATABASE StudentsDB
+# RESTORE DATABASE StudentsDB
 --OR: Write where the backup copy is located in your computer
 FROM DISK = 'C:\DatabaseBackupService\Database\StudentsDB.bak' 
 ```
