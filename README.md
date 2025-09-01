@@ -161,6 +161,7 @@ InstallUtil.exe /u DatabaseBackupService.exe
 
 **Abdallah Badawi**
 - GitHub: [@AbdallahBadawi](https://github.com/AbdallahBadawi)
+- [LinkedIn](https://www.linkedin.com/in/abdallah-k-badawi/)
 ---
 
 ⭐ If you like this project, don't hesitate to give it a star!
