@@ -35,7 +35,7 @@ cd Database-Backup-Service
 ```bash
 # RESTORE DATABASE StudentsDB
 FROM DISK = 'C:\DatabaseBackupService\Database\StudentsDB.bak'
---OR: Write where the backup copy is located in your computer
+--OR: Write where the backup copy is located in your computer..
 ```
 ### 3. Build Project
 
